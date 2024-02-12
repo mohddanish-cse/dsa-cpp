@@ -20,6 +20,8 @@ void nStarTriangle(int n)
 
 int main()
 {
-    nStarTriangle(3);
+    int n;
+    cin >> n;
+    nStarTriangle(n);
     return 0;
 }

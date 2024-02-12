@@ -32,6 +32,8 @@ void nStarDiamond(int n)
 
 int main()
 {
-    nStarDiamond(3);
+    int n;
+    cin >> n;
+    nStarDiamond(n);
     return 0;
 }
